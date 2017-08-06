@@ -21,7 +21,17 @@ function display(){
 	connection.query("SELECT * FROM products", function(err, res){
 		if (err) throw err;
 			console.table(res);
-	});
-
-
+		choice();
+	})
+};
+	
+//function to ask user is going to purchase
+function choice(){
+ 	inquirer
+ 	.prompt([
+ 	{
+ 		name: "choice",
+ 		type: "input",
+ 		message: "What is the ID of the product you would like to purchase?"
+ 	}]);
 }
