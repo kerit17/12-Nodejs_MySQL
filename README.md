@@ -2,4 +2,4 @@
 Denver Coding Bootcamp: 
 Week 12 Homework - Node.js and MySQL
 
-![MySQL Products Table](/images/mySQL_products.png)
+![Products Table](/images/table2.png)
